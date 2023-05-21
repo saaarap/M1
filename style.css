@@ -1,0 +1,143 @@
+*{box-sizing: border-box;}
+body {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+main{width: 70%;}
+.side{width: 20%; margin-right: 3em;}
+.container {display: flex;
+    justify-content: center; 
+    flex-direction: row-reverse; 
+    margin-top: 4em;}
+
+/*HEADER*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:white;
+    z-index: 1;
+    margin-left: -7em;}
+    .logotop {position: fixed;
+    width: 10%;
+    left: 15%;}
+    .logotop img{width: 100%;}
+
+/*ASIDE*/
+aside {position: sticky; top: -200px;}
+.firstaside img {width: 10%;}
+.firstaside {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;}
+    .firstaside>p,a {margin: 1em;}
+.firstaside .buttontwitter {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;}
+.firstaside a{color: gainsboro;}
+hr {width: 70%;}
+.topics {
+margin-top: 3em;}
+.topics h3 {font-weight: bold;margin-left: 1em;}
+.topics ul{display: flex;
+flex-wrap: wrap;
+}
+.topics li{padding: 0.8em;
+background-color: gainsboro;
+border-radius: 30px;
+font-size: smaller;
+margin-top: 2em;
+margin-bottom: 1em;
+margin-right: 1em;
+margin-left: 1em;}
+.who {margin-top: 2em; margin-left: 1em;}
+.whow{
+display: flex;
+align-items: center;
+justify-content:space-between;}
+.whow p, span{font-size: smaller; overflow: hidden; margin-left: 1em;
+margin-top: 1em; margin-bottom: 1em;}
+.who img {border-radius: 50px; width:3em; height: 3em;}
+.who h3 {font-weight: bold; margin-bottom: 2em;}
+.button{
+color: black;
+border-radius: 30px;
+background-color: gainsboro;
+padding: 0.9em;
+font-size: small;
+text-align: center;
+text-decoration: none;}
+.recently {
+margin-top: 2em;
+margin-left: 1em;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-content: space-around;}
+.recently img {width: 1em; margin-right:0.5em; border-radius: 3px;}
+.recently h3 {font-size: medium; font-weight: bold;}
+.recently h2 {font-size: large; font-weight: bolder; margin-top: 1em;}
+.recently p {margin-top: 1em;}
+.recently a {margin-left: 0em; color: #669e63; text-decoration: none;}
+footer {margin-left: 1em;}
+footer ul {display:flex;
+    flex-direction:row; 
+    flex-wrap: wrap;}
+footer li {margin:1em;
+    margin-left: 0;
+    color: gray;}
+
+/*MAIN*/
+.fr a {text-decoration: none;
+color: black;}
+.fr{margin-left: 12em; padding: 2em; font-weight: bold;}
+.fr span:nth-child(2){text-decoration: underline;}
+.article {
+    padding: 15em;
+    padding-top: 0em;
+    display: flex;
+    flex-direction: column;}
+.singlearticle {display: flex;
+align-items: center;
+margin: 0.5em;}
+.singlearticle img {width: 22em;
+margin-left: 1em;}
+.singlearticle a {color: black; text-decoration: none;}
+.singlearticle h1 {font-size: 20px; font-weight: bold;}
+.text a:first-child{font-weight: bold;}
+.text a:nth-child(3) {color: gray;}
+.text img{width: 3%; margin-right: 0.5em; border-radius: 50%;
+margin-left: 0;}
+.p {display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-size:small;
+margin-right: 3em;
+color: gray;}
+.p p {color: black;
+    background-color: gainsboro; 
+padding: 0.5em; border-radius: 30px;}
+.text span {display: flex;
+justify-content: left;
+margin:0;
+font-size: medium;}
+
+
+
+
+/*COLORI TEMPORANEI
+header {background-color: aqua;}
+.side {background-color: brown;}
+main {background-color: blueviolet;}
+.singlearticle {background-color: #669e63;}*/
